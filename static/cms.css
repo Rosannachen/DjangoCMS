@@ -1,0 +1,31 @@
+/* 头部包含块 */
+.header__wrap {
+	height: 80px;
+	margin: 0 auto;	/* 居中对齐 */
+	position: relative;	/* 相对定位 */
+	background: #f8f8f8;
+}
+
+/* 头部图标 */
+.header__logo img {
+	width: 60px;
+	height: 50px;
+	position: absolute;
+	left: 15px;
+	top: 50%;
+	margin-top: -25px;
+}
+
+/* 头部文字 */
+.header__desc {
+	line-height: 38px;	/* 垂直对齐 */
+	font-size: 25px;
+	color: #273038;
+	text-indent: 10px;	/* 文字缩进 */
+	position: absolute;	/* 绝对定位 */
+	top: 50%;	/* 垂直居中对齐 */
+	margin-top: -20px;
+	left: 75px;
+	font-weight: bolder;
+	font-family: Verdana, Arial, sans-serif;
+}
